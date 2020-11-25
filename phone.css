@@ -1,0 +1,162 @@
+#navbar
+{
+    flex-direction: column;
+}
+/*
+#navbar::before
+{
+
+}
+*/
+/* logo and img*/
+/*
+#logo
+{
+
+}
+*/
+#logo img
+{
+    margin: 21px 206px
+}   
+
+#navbar ul
+{
+    margin-top: -23px;
+}
+
+#navbar ol
+{
+    margin-left: 180px;
+    margin-top: 11px;
+}
+
+#navbar ol li
+{
+    font-size: 1rem;
+}
+#navbar ol li a
+{
+    padding: 5px 6px;
+}
+#navbar ol li a:hover
+{
+
+}
+#navbar ul li
+{
+    list-style: none;
+    font-size: 0.6rem;
+}
+#navbar ul li a
+{
+
+}
+#navbar ul li a:hover
+{
+
+}
+#log
+{
+
+}
+
+#logoname
+{
+
+}
+#img
+{
+    margin-left: 2px;
+}
+#im02
+{
+
+}
+/* About Us*/
+/*
+.abimg1 img
+{
+
+}
+.greet h1
+{
+
+}
+.abt h1
+{
+
+}
+.abtdes p
+{
+
+}
+
+/* Our Service*/
+/*
+#service
+{
+
+}
+
+/* Why Aj*/
+/*
+#why
+{
+
+}
+#whya
+{
+
+}
+#whydes
+{
+
+}
+#whyp
+{
+
+}
+/*Contact Us */
+/*
+.contact
+{
+
+}
+#con1
+{
+
+}
+.addwork
+{
+
+}
+.addwork h1
+{
+
+}
+.addwork p
+{
+
+}
+.addwork h2
+{
+
+}
+.addreg
+{
+
+}
+.addreg h1
+{
+
+}
+.addreg p
+{
+
+}
+.addreg h2
+{
+
+}
+*/

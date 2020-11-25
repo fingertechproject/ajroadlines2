@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar*/
+#navbar{
+    position: sticky;
+    display: flex;
+    
+}
+#navbar::before
+{
+    content: "";
+    background-color:#020202;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+/* logo and img*/
+#logo
+{
+    margin: -6px -17px;
+}
+
+#logo img{
+    height: 61px;
+    margin: 20px 42px;
+    margin-bottom: 26px;
+}
+
+
+#navbar ul
+{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 1px;
+}
+#navbar ol
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-decoration: none;
+    
+}
+#navbar ol li
+{
+    list-style: none;
+    
+    font-size: 1.3rem;
+}
+#navbar ol li a
+{
+    color: blue;
+    display: block;
+    padding: 10px 20px ;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#navbar ol li a:hover
+{
+    color: #009999;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+#navbar ul li
+{
+    list-style: none;
+    
+    font-size: 1rem;
+}
+#navbar ul li a
+{
+    color:white;
+    display: block;
+    padding: 10px 20px ;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#navbar ul li a:hover
+{
+    color:#002699;
+   background-color: #009999;
+}
+#log
+{
+    margin-right: 10px;
+}
+
+#logoname
+{
+    margin-top: 10px;
+    height: 79px;
+    margin-left: 350px;
+}
+#img
+{
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+}
+
+#im02
+{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Us*/
+
+.abimg1 img
+{
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.greet h1
+{
+    color: #009999;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.abt h1
+{
+    color: #009999;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;  
+}
+.abtdes p
+{
+    display: flex;
+    text-align: center;
+}
+
+/* Our Service*/
+
+#service
+{
+    text-align: center;
+    font-size: 40px;
+    color: #009999;
+    margin-bottom: -80px;
+}
+
+/* Why Aj*/
+#why
+{
+
+margin: auto;
+align-items: center;
+justify-content: center;
+
+}
+#whya
+{
+color: #001a66;
+font-size: 40px;
+text-align: center;
+}
+#whydes
+{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#whyp
+{
+color: #009999;
+font-size: 20px;
+text-align:center;
+}
+/*Contact Us */
+.contact
+{
+display: flex;
+margin: auto;
+align-items: center;
+justify-content: center;
+
+}
+#con1
+{
+font-size: 40px;
+text-align: center;
+color:  #000000;
+}
+.addwork
+{
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.9;
+    width: 450px;
+    margin-bottom: 10px;
+    margin-left: 218px;
+}
+
+.addwork h1
+{
+    font-size: 30px;
+text-align: center;
+color:  #000000;
+}
+.addwork p
+{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+.addwork h2
+{
+    font-size: 25px;
+    text-align: center;
+    color:  black; 
+    text-decoration: underline;
+}
+.addreg
+{
+    
+  
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    width: 450px;
+    margin-left: 679px;
+    margin-top: -279px;
+}
+
+.addreg h1
+{
+    font-size: 30px;
+text-align: center;
+color: #000000;
+}
+.addreg p
+{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+.addreg h2
+{
+    font-size: 25px;
+    text-align: center;
+    color:  #000000; 
+    text-decoration: underline;
+}
+
+/* Responsive*/
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { max-width: 100%; height: auto; }
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+html { font-size:100%; }
+
+
+  
